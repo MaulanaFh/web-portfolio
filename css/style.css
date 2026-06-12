@@ -798,8 +798,26 @@ nav.scrolled .nav-links a.active {
     }
 }
 
+@media (max-width: 768px) {
+  
+  h1 {
+    font-size: 2rem; 
+  }
+
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .section {
+    width: 100%;
+    overflow-x: hidden;
+  }
+}
+
 @media (max-width: 576px) {
     /* navbar */
+
+
     nav {
         padding: 15px 10px;
     }
